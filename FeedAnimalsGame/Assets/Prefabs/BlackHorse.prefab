@@ -974,6 +974,7 @@ GameObject:
   - component: {fileID: 5509790301617502791}
   - component: {fileID: 23612718394878014}
   - component: {fileID: 7501263462285123709}
+  - component: {fileID: 5817036102944365182}
   m_Layer: 0
   m_Name: BlackHorse
   m_TagString: Untagged
@@ -1045,8 +1046,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449517abd999a924488d35b054fae7e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topBound: 0
-  bottomBound: -7
+--- !u!65 &5817036102944365182
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5509790301610168403}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 14.692842, y: 34.331596, z: 46.553684}
+  m_Center: {x: 0.2537954, y: 19.775043, z: 3.4670806}
 --- !u!1 &5509790301610168741
 GameObject:
   m_ObjectHideFlags: 0
