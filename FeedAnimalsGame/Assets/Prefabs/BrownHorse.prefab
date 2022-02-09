@@ -1308,6 +1308,7 @@ GameObject:
   - component: {fileID: 3704530615458982314}
   - component: {fileID: 2412540090386661453}
   - component: {fileID: 7695134605559238111}
+  - component: {fileID: 3700508895544335463}
   - component: {fileID: 7168014852304723095}
   m_Layer: 0
   m_Name: BrownHorse
@@ -1378,6 +1379,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 449517abd999a924488d35b054fae7e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3700508895544335463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3704530615449592674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94296d092d1bc5a4aba7e0fcbd905616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &7168014852304723095
