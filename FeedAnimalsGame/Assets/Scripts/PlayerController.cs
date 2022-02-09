@@ -6,8 +6,11 @@ public class PlayerController : MonoBehaviour
 {
     public float playerSpeed;
     public float xBoundarie;
+    public GameObject projectilePrefab;
 
     private float horizontalInput;
+
+
 
 
     void Start()
@@ -28,6 +31,11 @@ public class PlayerController : MonoBehaviour
         }
 
         this.transform.Translate(Vector3.right * horizontalInput * playerSpeed * Time.deltaTime);
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(projectilePrefab, this.transform.position, projectilePrefab.transform.rotation);
+        }
     }
     
     void FixedUpdate()
